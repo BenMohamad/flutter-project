@@ -167,7 +167,6 @@ class ItemDetailPage extends StatelessWidget {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('Download started for image!')),
     );
-    // You can implement actual download logic using packages like 'image_downloader' or 'gallery_saver'.
   }
 
   @override
